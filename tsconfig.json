@@ -1,0 +1,16 @@
+{
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
+  "compilerOptions": {
+    "target": "es2015",
+    "declaration": true,
+    "moduleResolution": "node",
+    "module": "es2015",
+    "resolveJsonModule": true
+  },
+  "include": ["src/client/**/*"],
+  "exclude": ["node_modules"]
+}
